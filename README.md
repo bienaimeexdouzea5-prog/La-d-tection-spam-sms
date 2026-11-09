@@ -43,6 +43,15 @@ detection-spam-sms/
 4. Classification par le modèle Machine Learning.
 5. Affichage du résultat : SPAM ou NORMAL.
 
-## Auteur
+## Pipeline
+## Architecture du Pipeline
 
-Projet académique d'intelligence artificielle.
+![Pipeline de détection des SMS SPAM](pipeline.png)
+### Explication des étapes
+
+1. **Dataset :** collecte des 5 574 SMS.
+2. **Prétraitement :** nettoyage et normalisation des messages.
+3. **TF-IDF :** transformation des textes en données numériques.
+4. **Naive Bayes :** entraînement du modèle de classification.
+5. **Évaluation :** mesure des performances du modèle.
+6. **Prédiction :** identification d'un SMS comme SPAM ou NORMAL.
